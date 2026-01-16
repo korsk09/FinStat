@@ -1,0 +1,236 @@
+{
+   "checksum": "97708db26f29b6a21affc299db79780f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13237980795354170",
+            "date_last_used": "0",
+            "guid": "504c01ab-f292-45cf-854b-34249d5c815c",
+            "id": "26",
+            "name": "Авиабилеты",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://avia.yandex.kz/?win=444&clid=2349745-632&utm_source=distribution&utm_medium=bookmark&utm_campaign=kz",
+            "visit_count": 0
+         }, {
+            "date_added": "13237980795349185",
+            "date_last_used": "0",
+            "guid": "400b0df7-66a0-43e7-905b-783b7b802d70",
+            "id": "27",
+            "name": "Яндекс",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://www.yandex.kz/?win=444&clid=2349745-632&from=dist_bookmark",
+            "visit_count": 0
+         }, {
+            "date_added": "13215349653000000",
+            "date_last_used": "0",
+            "guid": "ef8c66c1-ccc1-4c17-9c43-7a1265d3d4c6",
+            "id": "28",
+            "name": "Начальная страница",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.mozilla.org/ru/firefox/central/",
+            "visit_count": 0
+         } ],
+         "date_added": "13412963806851784",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Панель избранного",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13215349653000000",
+                  "date_last_used": "0",
+                  "guid": "f2cb2d01-990c-405c-82bc-4971bb7a575f",
+                  "id": "13",
+                  "name": "Справка и руководства",
+                  "show_icon": false,
+                  "source": "sync",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/ru/products/firefox",
+                  "visit_count": 0
+               }, {
+                  "date_added": "13215349653000000",
+                  "date_last_used": "0",
+                  "guid": "d09ab775-d8cc-42d7-b2ed-699377581f9f",
+                  "id": "14",
+                  "name": "Настройка Firefox",
+                  "show_icon": false,
+                  "source": "sync",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/ru/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize",
+                  "visit_count": 0
+               }, {
+                  "date_added": "13215349653000000",
+                  "date_last_used": "0",
+                  "guid": "7b435f63-091e-4525-984f-fff088575869",
+                  "id": "15",
+                  "name": "Присоединяйтесь к сообществу",
+                  "show_icon": false,
+                  "source": "sync",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/contribute/",
+                  "visit_count": 0
+               }, {
+                  "date_added": "13215349653000000",
+                  "date_last_used": "0",
+                  "guid": "042f711b-6ca2-4302-8cea-0cb8a6620d67",
+                  "id": "16",
+                  "name": "О нас",
+                  "show_icon": false,
+                  "source": "sync",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/about/",
+                  "visit_count": 0
+               } ],
+               "date_added": "13243490782048342",
+               "date_last_used": "0",
+               "date_modified": "13243490782048342",
+               "guid": "f5bdde27-4ba8-4812-a2d6-2a8383a63d3b",
+               "id": "12",
+               "name": "Mozilla Firefox",
+               "source": "unknown",
+               "type": "folder"
+            }, {
+               "date_added": "13232136265000000",
+               "date_last_used": "0",
+               "guid": "5c5f02a7-1434-404a-8296-02e4e3d1c0a0",
+               "id": "17",
+               "name": "RetroGames.cc - Play retro games online in your browser",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.retrogames.cc/",
+               "visit_count": 0
+            }, {
+               "date_added": "13232438913000000",
+               "date_last_used": "0",
+               "guid": "caf0f7f3-2257-45db-8c21-7f9c50cd0c99",
+               "id": "18",
+               "name": "Решебник (ГДЗ) по алгебре за 7 класс",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://megaresheba.ru/publ/gdz/algebra/7_klass/97-1-0-1265",
+               "visit_count": 0
+            } ],
+            "date_added": "13243490782048266",
+            "date_last_used": "0",
+            "date_modified": "13243490782048266",
+            "guid": "ecf1c26d-ca12-4f50-a7b4-e8f05800b046",
+            "id": "11",
+            "name": "Меню закладок Mozilla Firefox",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13215972913000000",
+            "date_last_used": "0",
+            "guid": "2b940e73-2c39-4a5f-9acc-23184af49cb8",
+            "id": "19",
+            "name": "Наруто 1 сезон - смотреть онлайн аниме бесплатно все серии подряд в хорошем качестве",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://onlinemultfilmy.ru/naruto-naruto-1-sezon/",
+            "visit_count": 0
+         }, {
+            "date_added": "13229619475000000",
+            "date_last_used": "0",
+            "guid": "10a97c09-469d-4858-a58b-8da982d6c1fb",
+            "id": "20",
+            "name": "Nintendo - приставочные игры на русском языке торрентом - Эмуляторы игровых систем Nintendo, консолей и портативных приставок",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://nintendo.moy.su/index/ehmuljatory_igrovykh_sistem_nintendo_konsolej_i_portativnykh_pristavok/0-87",
+            "visit_count": 0
+         }, {
+            "date_added": "13232136144000000",
+            "date_last_used": "0",
+            "guid": "318b4b92-a35d-4e85-b328-bc5ae307974e",
+            "id": "21",
+            "name": "RetroGames.cc - Play retro games online in your browser",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.retrogames.cc/search?q=zelda&system=",
+            "visit_count": 0
+         }, {
+            "date_added": "13243332632000000",
+            "date_last_used": "0",
+            "guid": "689f4085-b8fe-4953-9561-67c0b41fb61c",
+            "id": "22",
+            "name": "Курсы",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://classroom.google.com/h",
+            "visit_count": 0
+         }, {
+            "date_added": "13256831381247733",
+            "date_last_used": "0",
+            "guid": "4f1e3449-1147-46d9-a6de-e8d7678addb8",
+            "id": "23",
+            "name": "Mail.Ru",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://www.mail.ru/cnt/7861",
+            "visit_count": 0
+         }, {
+            "date_added": "13215356907809367",
+            "date_last_used": "0",
+            "guid": "3cbad172-c200-459b-9807-35d6c9f398b9",
+            "id": "24",
+            "name": "OVGORSKIY",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "http://ovgorskiy.ru/",
+            "visit_count": 0
+         }, {
+            "date_added": "13256831381232132",
+            "date_last_used": "0",
+            "guid": "0aa5f375-b936-4cbd-aba3-409ae874bb24",
+            "id": "25",
+            "name": "Искать в Интернете",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://go.mail.ru/?fr=iespt",
+            "visit_count": 0
+         } ],
+         "date_added": "13412963806851784",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Другое избранное",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13412963806851784",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Избранное на мобильных устройствах",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCJuBDcebAQAAEgAqGEZTNzdnMDdkVG54d3Z6WlgvQVlyU0E9PUgDoAYMEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGUzYWFjYTFlLTViZTQtNWFkNS1hY2ZmLTg5YjQzN2ZkNThkYRgAIAAoADDJqKXk0y44/NvT2fMvQPzb09nzL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKtAQgcEqgBChxqdENkUzMrRzZXVzcvOTdSUlJGL0Zqb1d1dEU9EiRlZjhjNjZjMS1jY2MxLTRjMTctOWM0My03YTEyNjVkM2Q0YzYYACAAKAAwmsvP2ZIxONXMz9mSMUDVzM/ZkjFKHEplU0NRNXF1L2ZTNzFOOE9YL21GOGxEeFJMTT1aHyId21had3c3dkNPUzVIMlVJeUtBL0hNY2VpZExicz1lAAAAAMI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDEzM2M2NzYyLWRjNDQtNWE5OS1iZDljLTZmZjViMDg4YWQzZBgAIAAoADDNqKXk0y44u9zT2fMvQLvc09nzL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKsAQgPEqcBChwyaUhVazU4SHlqVkk5cStwcGdxREhXMHFBRjA9EiQ3YjQzNWY2My0wOTFlLTQ1MjUtOTg0Zi1mZmYwODg1NzU4NjkYACAAKAAwosvP2ZIxOMLOz9mSMUDCzs/ZkjFKHGUxVitCd3ZYMVNCR3l2SUM2TTBQMTNwY3RtYz1aHiIcWVBMRE05NXJoQnJUdUZTbUlFaytpZ1IvOG5rPWUAAAAAwj4CYAUSrAEICxKnAQocMFl2cUE4VEhQcHRNQWNJencrb1h0SGhRdkZNPRIkZWNmMWMyNmQtY2ExMi00ZjUwLWE3YjQtZThmMDU4MDBiMDQ2GAAgACgAMJ7Lz9mSMTjMzc/ZkjFAzM3P2ZIxShw2aWliRHNpbXZGNzlGS2RhbGkyM21kdFVmRGc9Wh4iHGhRV1hXUTZWZER0Vi8vMnlVdk5LNlpJMEJkST1lAAAAAMI+AmAAEq0BCBkSqAEKHE1VS1dsdFI3a1Y4KzdCUHd5ZFpyRllrV2ZEdz0SJDBhYTVmMzc1LWI5MzYtNGNiZC1hYmEzLTQwOWFlODc0YmIyNBgAIAAoADDJpObUozM4panm1KMzQKWp5tSjM0ocTGJIcEEyL2lidE83VzJkVjNOV1YzbC8rM0MwPVofIh3+SktpYkJlR1crdEp2RUltSThhTDA5MjRmY1A0PWUAAAAAwj4CYAISrAEIDhKnAQocOEpNR29jYkZKL01SNW1Ccmc5OVZBMU9GL29JPRIkZDA5YWI3NzUtZDhjYy00MmQ3LWIyZWQtNjk5Mzc3NTgxZjlmGAAgACgAMKHLz9mSMTidzs/ZkjFAnc7P2ZIxShw2L1EzNDd2L2VtQ2pKMzh1VkcxNUJuU0NtRGs9Wh4iHDNRNDBBY1dFcXpJZzhjOTBPSGFiSG9sTUFrWT1lAAAAAMI+AmAFEq0BCBMSqAEKHGVpR3d0RlEvOGhqU1NVcXlqK2JQcGlEQkYraz0SJDJiOTQwZTczLTJjMzktNGE1Zi05YWNjLTIzMTg0YWY0OWNiOBgAIAAoADCby8/ZkjE47szP2ZIxQO7Mz9mSMUocQzVkZGt4S0h0TkJyMS9yc2NjSXR2UFJQZFFrPVofIh20U2pTRUVxQVJvYkNXVkNlN081aTRRMDZnQ3Q4PWUAAAAAwj4CYAUSrAEIDBKnAQocaGppektJczFZSXI4Ung0TTFUUDZUWnY2bkRvPRIkZjViZGRlMjctNGJhOC00ODEyLWEyZDYtMmE4MzgzYTYzZDNiGAAgACgAMJ/Lz9mSMTjlzc/ZkjFA5c3P2ZIxShxZU0FYWVo5by9KTm10V0RuNmpGLy93WVBmRVk9Wh4iHDJHbHUrdmVheHRXZGF4SW9NQlByMlRyK0Y3ND1lAAAAAMI+AmAAEqwBCBESpwEKHHBkcVF6ek9pUU5wcDZhMVJLcjBVNXdHa0xOZz0SJDVjNWYwMmE3LTE0MzQtNDA0YS04Mjk2LTAyZTRlM2QxYzBhMBgAIAAoADCky8/ZkjE4kM/P2ZIxQJDPz9mSMUocS1ovV0FoejJjYW9PMHVsdUk3RXZCTlFIaTZjPVoeIhxMakRmTnZHMTk0dCtJRnAxQUV3cEZRbVMxYW89ZQAAAADCPgJgBRKtAQgVEqgBChxWeTBmV0M1TFpBNXZ1bFRVcmRMWU9oTHI4alU9EiQzMThiNGI5Mi1hMzVkLTRlODUtYjMyOC1iYzVhZTMwNzk3NGUYACAAKAAwncvP2ZIxOKnNz9mSMUCpzc/ZkjFKHFF4eGxLbll0aEYvNEN5THhQRkJ3YXBneEZqYz1aHyId7WZ4UzN5Wm8yUnd6b1gvenpkQTJVZno4ZUdIST1lAAAAAMI+AmAFEq0BCBQSqAEKHHlQckE4QUFuL3NHcUcxelNmQ3dkVVpHbW5GUT0SJDEwYTk3YzA5LTQ2OWQtNDg1OC1hNThiLThkYTk4MmQ2YzFmYhgAIAAoADCmy8/ZkjE4htDP2ZIxQIbQz9mSMUocVXpSU0JHbXovM0Zld2tzeDZSVWZYN1Z2MEJNPVofIh3aWG9ESVcyVDNOd1V1NEQ1WjIzZmZqNERmaGFRPWUAAAAAwj4CYAUSrQEIFxKoAQocVEgrUCttUWFxeWFwOFZlUlArQk5sN2lKRm9JPRIkNGYxZTM0NDktMTE0Ny00NmQ5LWE2ZGUtZThkNzY3OGFkZGI4GAAgACgAMMqk5tSjMzjmqebUozNA5qnm1KMzShxZNEUraDhGVmJvTGhJYW80WTBiV0t3Y2x1N1U9Wh8iHft5eW40OEhYV3FuRnZJUWUrUTVrSjdBa0JCemM9ZQAAAADCPgJgAhKsAQgNEqcBChxkUzNCaVRwc1kyNlF1V0pzamhORENUQlJaems9EiRmMmNiMmQwMS05OTBjLTQwNWMtODJiYy00OTcxYmI3YTU3NWYYACAAKAAwoMvP2ZIxOILOz9mSMUCCzs/ZkjFKHGhkZVd3YnRCejI2RTRJNUxVdkljeDRsaWlJQT1aHiIcMWRSOFliRTJRck5oK1dSUlY0QjZwcnlaWkRVPWUAAAAAwj4CYAUSrQEIEBKoAQocMjM1dzU1RU5XRG5lQzJUMjczUGZjUmZ0UVRrPRIkMDQyZjcxMWItNmNhMi00MzAyLThjZWEtMGNiOGE2NjIwZDY3GAAgACgAMKPLz9mSMTjozs/ZkjFA6M7P2ZIxShxqdWd0NGJMTVJ6UWtLMGEvSWczVUdhU2xiZWs9Wh8iHaxQazI5dmdVbHVIamsvcTMySjlMdXA5T1lWZHc9ZQAAAADCPgJgBRKsAQgSEqcBChxxRFBwbVlyYjJ4SVRyNlNoNVVPOEFXTGREQXM9EiRjYWYwZjdmMy0yMjU3LTQ1ZGItOGMyMS03ZjljNTBjZDBjOTkYACAAKAAwpcvP2ZIxOLrPz9mSMUC6z8/ZkjFKHFB2Q01ZclBIcXhVYTh3QmpDeGNqRXUycGZWOD1aHiIccTRoYTE1RXVXL0FzZERYR1VLMG00V3RCbytnPWUAAAAAwj4CYAUSrQEIFhKoAQocZSs0SWdVMFhTYTdkelFEcTdaZmZFOUt0K1k4PRIkNjg5ZjQwODUtYjhmZS00OTUzLTk1NjEtNjdjMGI0MWZiNjFjGAAgACgAMJzLz9mSMTiQzc/ZkjFAkM3P2ZIxShx2U2E5dHFKRlBBQ1JKamRrWkxOeVZmSkxCUW89Wh8iHfZWeGFSZHpnLzJjWTU1WiswNWtBRWdrMmRST0k9ZQAAAADCPgJgBRKtAQgYEqgBChxHUTNJUEluR1hvQjVGRGg1bDZJaHBIay9keDQ9EiQzY2JhZDE3Mi1jMjAwLTQ1OWItOTgwNy0zNWQ2YzlmMzk4YjkYACAAKAAwyKTm1KMzOOao5tSjM0DmqObUozNKHE8vNHVNUS9odFhHTk8rWFdFaW5IS2ZrTiswRT1aHyId/VBwL01Pdm5aVk8yWlhseHFBUmZaQ1B4cTR5cz1lAAAAAMI+AmACEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDkzMDM1YjgwLWIyYjctNWVlOS04ZjU3LWZkZGE2NTQ4NDI1MRgAIAAoADDIqKXk0y44zdvT2fMvQM3b09nzL0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKsAQgaEqcBChxSRGhpUU9tQUxWUEhSMEVzbEZVVjIzSWJHeDQ9EiQ1MDRjMDFhYi1mMjkyLTQ1Y2YtODU0Yi0zNDI0OWQ1YzgxNWMYACAAKAAwqZ/KntAxOLDQz9mSMUCw0M/ZkjFKHHZpdmk2WGx0K1VzbnBGbDBTZGw3RmNhcmNGYz1aHiIcbDI2a1EwT2p2c0MraWVwRmJjMG5QNUJLL05FPWXgUM8Cwj4CYAISrQEIGxKoAQocazRaQS8xUGRPdXh3Y0ZzTyt5RjBJLzN2NHR3PRIkNDAwYjBkZjctNjZhMC00M2U3LTkwNWItNzgzYjdiODAyZDcwGAAgACgAMKifyp7QMTjV0M/ZkjFA1dDP2ZIxShxjbGN1dW10aDVHOXM5WURhQXVtMkJaSWNZd1k9Wh8iHbZLTnhtN0dPWEZocFVwTCtLR0YvUnFQWnlIV289ZS0OlOTCPgJgAjAAOAA=",
+   "version": 1
+}
