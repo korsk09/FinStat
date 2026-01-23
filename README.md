@@ -7,5 +7,7 @@
 
 Дизайн в Фигма: https://www.figma.com/proto/9H3UHowtNLzmUBetYXt8iY/Untitled?node-id=0-1&t=PJ19UlIacZ19UTtE-1
 
+Материалы приложения: https://drive.google.com/drive/folders/1-8MA-u53CfQR-4nlA1mU3MlPZjxwVxH9?usp=sharing
+
 Основной экран - базовые функции приложения
 Профиль - настройка профиля 
