@@ -101,3 +101,7 @@
 {"logTime": "0125/134000", {"lineNo":0,"logLevel":2,"message":"Migrate_FeatureCheck: Migrate_FeatureCheck","source":"Workspace Migration","timestamp":"2026-01-25T13:40:00.087Z"}}
 {"logTime": "0125/134000", {"lineNo":0,"logLevel":2,"message":"Migrate_FeatureCheck: Spaceworks not enabled, ineligible for migration","source":"Workspace Migration","timestamp":"2026-01-25T13:40:00.088Z"}}
 {"logTime": "0125/134000", {"lineNo":0,"logLevel":2,"message":"MaybeOrchestrateMigration: ~MaybeOrchestrateMigration","source":"Workspace Migration","timestamp":"2026-01-25T13:40:00.088Z"}}
+{"logTime": "0130/204940", {"lineNo":0,"logLevel":2,"message":"MaybeOrchestrateMigration: MaybeOrchestrateMigration","source":"Workspace Migration","timestamp":"2026-01-30T20:49:40.719Z"}}
+{"logTime": "0130/204940", {"lineNo":0,"logLevel":2,"message":"Migrate_FeatureCheck: Migrate_FeatureCheck","source":"Workspace Migration","timestamp":"2026-01-30T20:49:40.719Z"}}
+{"logTime": "0130/204940", {"lineNo":0,"logLevel":2,"message":"Migrate_FeatureCheck: Spaceworks not enabled, ineligible for migration","source":"Workspace Migration","timestamp":"2026-01-30T20:49:40.720Z"}}
+{"logTime": "0130/204940", {"lineNo":0,"logLevel":2,"message":"MaybeOrchestrateMigration: ~MaybeOrchestrateMigration","source":"Workspace Migration","timestamp":"2026-01-30T20:49:40.720Z"}}
