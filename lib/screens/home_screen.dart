@@ -11,7 +11,19 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final List<String> currencies = ['USD', 'EUR', 'RUB', 'KZT'];
+  final List<String> currencies = [
+  'USD', // доллар
+  'EUR', // евро
+  'RUB', // рубль
+  'KZT', // тенге
+  'CNY', // юань
+  'JPY', // йена
+  'THB', // бат
+  'CHF', // франк швейцарский
+  'GBP', // фунт
+  'KRW', // вона
+];
+
 
   String fromCurrency = 'USD';
   String toCurrency = 'KZT';
