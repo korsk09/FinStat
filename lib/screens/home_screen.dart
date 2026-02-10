@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'profile_screen.dart';
 import '../services/currency_service.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import '../main.dart'; // доступ к notificationsPlugin
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -12,18 +14,17 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final List<String> currencies = [
-  'USD', // доллар
-  'EUR', // евро
-  'RUB', // рубль
-  'KZT', // тенге
-  'CNY', // юань
-  'JPY', // йена
-  'THB', // бат
-  'CHF', // франк швейцарский
-  'GBP', // фунт
-  'KRW', // вона
-];
-
+    'USD', // доллар
+    'EUR', // евро
+    'RUB', // рубль
+    'KZT', // тенге
+    'CNY', // юань
+    'JPY', // йена
+    'THB', // бат
+    'CHF', // франк швейцарский
+    'GBP', // фунт
+    'KRW', // вона
+  ];
 
   String fromCurrency = 'USD';
   String toCurrency = 'KZT';
@@ -31,8 +32,9 @@ class _HomeScreenState extends State<HomeScreen> {
   double rate = 0;
   bool loading = true;
 
-  final TextEditingController amountController =
-      TextEditingController(text: '1');
+  final TextEditingController amountController = TextEditingController(
+    text: '1',
+  );
 
   @override
   void initState() {
@@ -40,17 +42,36 @@ class _HomeScreenState extends State<HomeScreen> {
     loadRate();
   }
 
+  Future<void> showRateNotification() async {
+    const androidDetails = AndroidNotificationDetails(
+      'rate_channel',
+      'Currency rate notifications',
+      importance: Importance.max,
+      priority: Priority.high,
+    );
+
+    const notificationDetails = NotificationDetails(android: androidDetails);
+
+    await notificationsPlugin.show(
+      0,
+      'Курс обновлён',
+      '1 $fromCurrency = ${rate.toStringAsFixed(2)} $toCurrency',
+      notificationDetails,
+    );
+  }
+
   Future<void> loadRate() async {
     setState(() => loading = true);
 
     try {
-      final r =
-          await CurrencyService.getRate(fromCurrency, toCurrency);
+      final r = await CurrencyService.getRate(fromCurrency, toCurrency);
 
       setState(() {
         rate = r;
         loading = false;
       });
+
+      await showRateNotification(); // 🔔
     } catch (_) {
       loading = false;
     }
@@ -84,8 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(
-                    builder: (_) => const ProfileScreen()),
+                MaterialPageRoute(builder: (_) => const ProfileScreen()),
               );
             },
           ),
@@ -105,10 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         value: fromCurrency,
                         items: currencies
                             .map(
-                              (c) => DropdownMenuItem(
-                                value: c,
-                                child: Text(c),
-                              ),
+                              (c) => DropdownMenuItem(value: c, child: Text(c)),
                             )
                             .toList(),
                         onChanged: (value) {
@@ -124,10 +141,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         value: toCurrency,
                         items: currencies
                             .map(
-                              (c) => DropdownMenuItem(
-                                value: c,
-                                child: Text(c),
-                              ),
+                              (c) => DropdownMenuItem(value: c, child: Text(c)),
                             )
                             .toList(),
                         onChanged: (value) {
@@ -142,8 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                   /// ГРАФИК
                   SizedBox(
-                    height:
-                        MediaQuery.of(context).size.height * 0.4,
+                    height: MediaQuery.of(context).size.height * 0.4,
                     child: LineChart(
                       LineChartData(
                         minY: rate - 10,
@@ -173,8 +186,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             isCurved: true,
                             barWidth: 3,
                             dotData: FlDotData(show: false),
-                            belowBarData:
-                                BarAreaData(show: true),
+                            belowBarData: BarAreaData(show: true),
                           ),
                         ],
                       ),
@@ -183,34 +195,36 @@ class _HomeScreenState extends State<HomeScreen> {
 
                   const SizedBox(height: 20),
 
+                  ElevatedButton(
+                    onPressed: showRateNotification,
+                    child: const Text('Тест уведомления 🔔'),
+                  ),
+
                   /// КОНВЕРТЕР
                   Container(
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
                       color: Colors.amber.shade200,
                       borderRadius: BorderRadius.circular(14),
-                      border: Border.all(
-                          color: Colors.amber.shade700),
+                      border: Border.all(color: Colors.amber.shade700),
                     ),
                     child: Column(
                       children: [
                         TextField(
                           controller: amountController,
-                          keyboardType:
-                              TextInputType.number,
+                          keyboardType: TextInputType.number,
                           decoration: InputDecoration(
-                            labelText:
-                                'Сумма в $fromCurrency',
+                            labelText: 'Сумма в $fromCurrency',
                           ),
-                          onChanged: (_) =>
-                              setState(() {}),
+                          onChanged: (_) => setState(() {}),
                         ),
                         const SizedBox(height: 12),
                         Text(
                           '${convertedValue.toStringAsFixed(2)} $toCurrency',
                           style: const TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold),
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ],
                     ),
